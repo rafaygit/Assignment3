@@ -73,7 +73,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         Picasso.get().load(localDataSet.get(position).getPicture().getLarge()).into(viewHolder.getImageView());
     }
 
-    // Return the size of your dataset (invoked by the layout manager)
+    // Return the size of your dataset (invoked by the layout manager) //
     @Override
     public int getItemCount() {
         return localDataSet.size();
